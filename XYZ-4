@@ -1,0 +1,12 @@
+name=input("enter your name:")
+location = input("enter your location:")
+requirements = input("enter your requirements:")
+details=print(name,location ,requirements)
+transmit=(name+location+requirements)
+print(transmit)
+receive=transmit
+print(receive)
+if transmit==receive:
+    print("informaton reached")
+else:
+     print("sorry try again")
